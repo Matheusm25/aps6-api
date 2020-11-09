@@ -10,12 +10,6 @@
 |
 */
 
-/** @type {import('@adonisjs/lucid/src/Factory')} */
-const Factory = use('Factory')
-
-/** @type {import('@adonisjs/lucid/src/Database')} */
-const Database = use('Database')
-
 const Information = use('App/Models/Information')
 
 class InformationSeeder {
